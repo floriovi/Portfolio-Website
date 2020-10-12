@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 
 /* nav section */
@@ -11,7 +11,11 @@ body {
 /* Vince SWE Title */
 
 .jumbotron {
-  background-color: #30e3ca !important;
+  background-color: #fff !important;
+}
+
+.title-jumbo {
+  margin-bottom: 0 !important;
 }
 
 #myBtn {
@@ -38,28 +42,44 @@ body {
 /* Progress Bar Width for Technologies/Skills */
 .bar-size {
   width: 50%;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
-/* h1.skills-technologies {
-  text-align: center;
-} */
+.tech-skill {
+  font-size: 1.5rem;
+}
 
-/* .tech-container {
-  text-align: center;
-} */
+.skills-technologies {
+  background-color: #e4f9f5;
+}
+
+/* Projects */
+h1.projects {
+  margin-top: 32px;
+  background-color: #e4f9f5;
+}
+
+/* Experience/Resume */
+.experience {
+  background-color: #e4f9f5;
+}
 
 /* Fontawesome Social icons */
-.fa {
+/* .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-}
+} */
 
 .fa-linkedin {
   background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
   color: white;
 }
