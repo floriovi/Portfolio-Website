@@ -1,17 +1,27 @@
 body {
   font-family: "Roboto", sans-serif !important;
+  color: #393e46;
 }
 
 /* nav section */
 .nav-link {
-  color: #11999e !important;
+  color: #00adb5;
   font-size: 1.2rem;
+}
+
+.navbar {
+  background-color: #00adb5;
+}
+
+.navbar_section,
+.navbar_section {
+  background-color: #383737b9;
 }
 
 /* Vince SWE Title */
 
 .jumbotron {
-  background-color: #fff !important;
+  background-color: #00adb5;
 }
 
 .title-jumbo {
@@ -38,6 +48,10 @@ body {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+.swe-title {
+  font-size: 2.3rem;
+}
+
 /* SKILLS/TECHNOLOGY */
 /* Progress Bar Width for Technologies/Skills */
 .bar-size {
@@ -50,12 +64,25 @@ body {
 }
 
 .skills-technologies {
-  background-color: #e4f9f5;
+  /* background-color: #e4f9f5; */
+  background-color: #383737b9;
+  padding: 20px;
+  margin-bottom: 0;
+  color: #00adb5;
+  font-weight: 500;
+}
+
+.skills-technologies-content {
+  background-color: #383737b9;
+}
+
+#skills {
+  background-color: #383737b9;
 }
 
 /* Projects */
 h1.projects {
-  margin-top: 32px;
+  padding-top: 20px;
   background-color: #e4f9f5;
 }
 
@@ -64,22 +91,74 @@ h1.projects {
   background-color: #e4f9f5;
 }
 
-/* Fontawesome Social icons */
-/* .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+.generation-resume {
   text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-} */
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
 }
 
-.fa-github {
-  background: black;
-  color: white;
+.resume-align {
+  display: inline-block;
+  text-align: left;
+}
+
+.resume-list {
+  list-style-position: inside;
+}
+
+.cv-download {
+  font-size: 1.5rem;
+}
+/* Social icons section */
+
+#socials-section {
+  background-color: #383737b9;
+}
+
+.github-icon-link,
+.linkedin-icon-link,
+.email-icon-link {
+  color: #00adb5;
+  margin: 5px;
+}
+
+.col-lg-3 {
+  padding: 30px;
+}
+
+.icon-credit {
+  font-size: 15px;
+  color: #00adb5;
+  padding-bottom: 20px;
+}
+
+/* Sink */
+.hvr-sink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sink:hover,
+.hvr-sink:focus,
+.hvr-sink:active {
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
+}
+
+/* Footer */
+#footer {
+  background-color: #383737b9;
+}
+
+.footer-text {
+  color: #00adb5;
 }
