@@ -35,36 +35,38 @@
     <section id="title">
       <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg navbar_section">
+      <nav
+        class="navbar navbar-light fixed-top navbar-expand-lg navbar_section"
+      >
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse navbar-content" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#title"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="#resume">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -94,35 +96,52 @@
     <!-- Skills/Technologies -->
     <!-- Add some icons for the skills & technologies I used e.g. fontawesome -->
 
-    <section id="Skills">
-      <h1 class="skills-technologies d-flex justify-content-center" class="h1">
+    <section id="skills">
+      <h1 class="skills-technologies text-center" class="h1">
         Skills and Technologies
       </h1>
       <div
         class="container-fluid d-flex justify-content-center skills-technologies-content"
       >
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <img
-              class="html5 hvr-sink"
-              src="https://img.icons8.com/color/100/000000/html-5.png"
-            />
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+            <div>
+              <img
+                data-container="body"
+                data-toggle="popover"
+                data-placement="top"
+                data-content="I am Proficient in HTML language with over 3 months of self-learning experience and bootcamp. Developed several websites and aware of best practices such as using HTML5 semantic tags to help maximise efficiency with SEO and screen readers."
+                class="html5 hvr-sink"
+                src="https://img.icons8.com/color/100/000000/html-5.png"
+              />
+            </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
             <img
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="I have been using CSS for 3 months and have learnt how to create simple animations, effects such as sink or flash on actions performed by the user and positioning such as flexbox, z-index, absolute etc."
               class="css3 hvr-sink"
               src="https://img.icons8.com/color/100/000000/css3.png"
             />
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
             <img
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="I have been using JavaScript for 3 months and have worked on many projects ranging from a fibonacci sequence generator, fizzbuzz, rock paper scissors and a drumkit using event listeners listening to keyboard events and playing drum sounds based on the keys pressed."
               class="javascript hvr-sink"
               src="https://img.icons8.com/color/100/000000/javascript.png"
             />
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
             <img
-              class="linux hvr-sink"
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="Since I started my web-development journey I have been using Linux on a VM as I wanted to gain some experience coding in a Linux environment. I have since learned using the CLI to perform actions in Linux. I have also used Git in the command line and have gained a good understanding of the Linux system."
               src="https://img.icons8.com/color/100/000000/linux.png"
             />
           </div>
@@ -132,26 +151,42 @@
         class="container-fluid d-flex justify-content-center skills-technologies-content"
       >
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
             <img
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="I have been using Slack as a means of communication with fellow learners on the 6 week bootcamp I attended. This has allowed me to use Slack to share resources, have group discussions. It was also good to review other learners' code through screenshots in a prompt fashion as Slack allows me to do this quickly."
               class="slack hvr-sink"
               src="https://img.icons8.com/color/100/000000/slack-new.png"
             />
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
             <img
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="Visual Studio Code has been an essential tool for me due to its many useful features such as extensions, cross platform usage, inbuilt emmet, git integration, code completion using IntelliSense etc. These features allow me to write good code quickly and efficiently."
               class="vscode hvr-sink"
               src="https://img.icons8.com/fluent/100/000000/visual-studio-code-2019.png"
             />
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
             <img
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="I use GIT via the Linux CLI for my projects to help me with version control."
               class="git hvr-sink"
               src="https://img.icons8.com/color/100/000000/git.png"
             />
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-6">
             <img
+              data-container="body"
+              data-toggle="popover"
+              data-placement="top"
+              data-content="I use GitHub to keep my projects in an online repository. This has also allowed other programmers to look at my code and give me feedback on my projects via pull requests and comments. I also use GitHub as a knowledge bank as there are many guides and reading available."
               class="github hvr-sink"
               src="https://img.icons8.com/fluent/100/000000/github.png"
             />
@@ -166,62 +201,158 @@
       <h1 class="h1 d-flex justify-content-center projects">Projects</h1>
       <br />
       <div class="container-fluid d-flex justify-content-center">
-        <h2>Project of JavaScript code I worked on that can delete arrays</h2>
+        <h2>Projects that I worked on</h2>
       </div>
-      <div class="text-center">
-        <img class="img-fluid" src="#" alt="project screenshot" />
+
+      <!-- Boostrap Carousel  -->
+
+      <div class="container-fluid">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/drumKit.png" alt="First slide" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Drum Kit Project</h5>
+                <p>
+                  Drum kit using dom manipulation and event listeners to emit
+                  sounds on key or mouse press.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/italy-website.png" alt="Second slide" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Italy Website Project</h5>
+                <p>
+                  A project I worked on to learn html, css and practice
+                  Bootstrap components.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="carousel-item">
+              <img src="..." alt="Third slide" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>...</h5>
+                <p>...</p>
+              </div>
+            </div> -->
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-      <em class="d-flex justify-content-center">Project 1</em>
     </section>
+
     <br /><br />
     <!-- Resume -->
-    <section id="Resume">
+    <section id="resume">
       <h1 class="experience d-flex justify-content-center">Experience</h1>
+      <p class="download-text">
+        <a
+          class="cv-download website-link"
+          href="./Vincent CV September 2020.pdf"
+          >Download full CV</a
+        >
+      </p>
       <div class="container-fluid generation-resume">
         <div class="resume-align">
-          <a
-            class="cv-download d-flex justify-content-center"
-            href="./Vincent CV September 2020.pdf"
-            >Download full CV</a
-          >
-          <h2>
-            Software Engineering Tech Talent Accelerator Bootcamp, Generation UK
+          <h2 class="resume-heading">
+            Software Engineering Tech Talent Accelerator Bootcamp,
+            <a class="website-link" href="https://uk.generation.org/"
+              >Generation UK</a
+            >
           </h2>
+          <h5 class="resume-date">(Sep 2020 - Nov 2020)</h5>
 
           <ul class="resume-list">
-            <li>Learned HTML, CSS and Javascript</li>
-            <li>
+            <li class="li-indent">
+              Learned HTML, CSS and Javascript and Bootstrap.
+            </li>
+            <li class="li-indent">
               Made use of Linux by using virtual machine and getting familiar
               with the terminal.
             </li>
-            <li>
+            <li class="li-indent">
               Learned how to use Git and GitHub to collaborate and using them to
               track changes.
             </li>
-            <li>
+            <li class="li-indent">
               Took a leading role in group activities demonstrating teamwork and
               leadership.
             </li>
           </ul>
 
-          <h2>Infrastructure Technician Apprentice, Buxton School</h2>
-          <h3></h3>
+          <h2 class="resume-heading">
+            Infrastructure Technician Apprentice,
+            <a class="website-link" href="https://www.buxtonschool.org.uk/"
+              >Buxton School</a
+            >
+          </h2>
+          <h5 class="resume-date">(Jan 2019 - Sep 2020)</h5>
           <ul class="resume-list">
-            <li>Providing 1st and 2nd line support to staff and students.</li>
-            <li>Maintaining Audio Visual equipment.</li>
-            <li>Migrating school computers from Windows 7 to Windows 10</li>
-            <li>
-              Office 365 Admin Centre: managing users, assigning licenses,
-              creating distribution and mail-enabled <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; security groups and resetting
-              passwords to users in 365 Admin Center
+            <li class="li-indent">
+              Providing 1st and 2nd line support to around 200 staff and 1334
+              students.
             </li>
-            <li>Setting up AV equipment for clients.</li>
-            <li>
+            <li class="li-indent">
+              Liaising with external suppliers and reporting faults to service
+              providers.
+            </li>
+            <li class="li-indent">Maintaining Audio Visual equipment.</li>
+            <li class="li-indent">
+              Capturing computer images and re-image computers using MDT via
+              different media such as PXE boot, USB and discs across the school
+              as agreed by the ICT Manager.
+            </li>
+            <li class="li-indent">
+              Assisting with the upkeep of the hardware inventory and security
+              marking of all IT equipment.
+            </li>
+            <li class="li-indent">
+              Migrating school computers from Windows 7 to Windows 10.
+            </li>
+            <li class="li-indent">
+              Office 365 Admin Centre: managing users, assigning licenses,
+              creating distribution and mail-enabled security groups and
+              resetting passwords to users in 365 Admin Center.
+            </li>
+            <li class="li-indent">Setting up AV equipment for clients.</li>
+            <li class="li-indent">
               Supporting and managing the inventory and assets tagging of 400+
               devices.
             </li>
-            <li>Building and deploying workstations using SCCM and MDT</li>
+            <li class="li-indent">
+              Building and deploying workstations using SCCM and MDT.
+            </li>
           </ul>
         </div>
       </div>
@@ -231,14 +362,19 @@
     <!-- Contact -->
     <section id="contact">
       <div class="container-fluid d-flex justify-content-center">
-        <h3>
-          Get in touch with me via email or
+        <h5>
+          Feel free to contact me via email at
+          <a class="website-link" href="mailto: vincenzoflorio31@gmail.com"
+            >vincenzoflorio31@gmail.com</a
+          >
+          or
           <a
+            class="website-link"
             href="https://linkedin.com/in/vincenzoflorio31
             "
-            >Linkedin</a
+            >Linkedin.</a
           >
-        </h3>
+        </h5>
       </div>
     </section>
 
@@ -262,18 +398,18 @@
       </div>
     </section>
 
+    <!-- Toggle image description on click -->
+
+    <!-- Footer  -->
     <footer id="footer">
       <div class="container d-flex justify-content-center">
         <p class="footer-text">© Copyright 2020 Vincenzo Florio</p>
       </div>
-      <a
-        class="icon-credit d-flex justify-content-center"
-        href="https://icons8.com"
-        >Icons by icons8</a
-      >
+      <span class="icon-center">
+        <a class="icon-credit" href="https://icons8.com">Icons by icons8</a>
+      </span>
     </footer>
 
-    <script src="app.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -289,68 +425,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
-
-<!-- <h1 class="skills-technologies d-flex justify-content-center" class="h1">
-  Skills and Technologies
-</h1>
-<div class="container-fluid d-flex justify-content-center">
-  <div class="progress bar-size" style="height: 35px">
-    <div
-      class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-      role="progressbar"
-      aria-valuenow="75"
-      aria-valuemin="0"
-      aria-valuemax="100"
-      style="width: 100%"
-    >
-      <b class="tech-skill">HTML</b>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid d-flex justify-content-center">
-  <div class="progress bar-size" style="height: 35px">
-    <div
-      class="progress-bar progress-bar-striped progress-bar-animated bg-info"
-      role="progressbar"
-      aria-valuenow="75"
-      aria-valuemin="0"
-      aria-valuemax="100"
-      style="width: 75%"
-    >
-      <b class="tech-skill">CSS</b>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid d-flex justify-content-center">
-  <div class="progress bar-size" style="height: 35px">
-    <div
-      class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-      role="progressbar"
-      aria-valuenow="75"
-      aria-valuemin="0"
-      aria-valuemax="100"
-      style="width: 75%"
-    >
-      <b class="tech-skill">JavaScript</b>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid d-flex justify-content-center">
-  <div class="progress bar-size" style="height: 35px">
-    <div
-      class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-      role="progressbar"
-      aria-valuenow="75"
-      aria-valuemin="0"
-      aria-valuemax="100"
-      style="width: 75%"
-    >
-      <b class="tech-skill">Linux</b>
-    </div>
-  </div>
-</div> -->

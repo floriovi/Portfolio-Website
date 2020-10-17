@@ -17,3 +17,10 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+$(function () {
+  $('[data-toggle="popover"]').popover({trigger:"hover"});
+})
+
+
