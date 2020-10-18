@@ -63,6 +63,14 @@ html {
   font-size: 2.3rem;
 }
 
+.portrait-vinc {
+  height: 25vh;
+}
+
+/* .title-profile {
+  margin-right: 50px;
+} */
+
 /* SKILLS/TECHNOLOGY */
 /* Progress Bar Width for Technologies/Skills */
 .bar-size {
