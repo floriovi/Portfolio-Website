@@ -71,6 +71,12 @@ html {
   margin-left: 200px !important;
 }
 
+@media screen and (max-width: 600px) {
+  .name-title {
+    font-size: 3rem;
+  }
+}
+
 /* SKILLS/TECHNOLOGY */
 /* Progress Bar Width for Technologies/Skills */
 .bar-size {
